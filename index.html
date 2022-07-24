@@ -57,27 +57,27 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <img src="images/banner.png" class="d-block img-width" alt="...">
                     <div class="carousel-caption p-5 d-md-block">
-                        <h1>The perfect venue for your next event</h1>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                        <h1 class="carousel-heading">The perfect venue for your next event</h1>
+                        <p class="paragraph">Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit </p>
                         <button class="btn bg-light text-primary py-2 px-5 mb-4">Book Now</button>
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <img src="images/banner.png" class="d-block img-width" alt="...">
                     <div class="carousel-caption d-md-block">
-                        <h1 class="font-size">The perfect venue for your next event</h1>
+                        <h1 class="carousel-heading">The perfect venue for your next event</h1>
                         <p class="font-p">Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit </p>
                         <button class="btn bg-light text-primary py-2 px-5 mb-4">Book Now</button>
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block col-12" alt="...">
+                    <img src="images/banner.png" class="d-block img-width" alt="...">
                     <div class="carousel-caption d-md-block">
-                        <h1 class="font-size">The perfect venue for your next event</h1>
+                        <h1 class="carousel-heading">The perfect venue for your next event</h1>
                         <p class="font-p">Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit </p>
                         <button class="btn bg-light text-primary py-2 px-5 mb-4">Book Now</button>
@@ -107,7 +107,8 @@
                 <div class="col-sm-12 col-md-6">
                     <div>
                         <h1 class="fw-bold text-black">Every moment is Precious </h1>
-                        <p class="fw-bold text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                        <p class="fw-bold text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor
                             do amet sint. Velit officia consequat duis enim velit mollit.
                             Exercitation veniam consequat sunt nostrud amet.
                         </p>
@@ -180,9 +181,9 @@
                             plan</a>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 mb-5">
+                <div class="col-sm-12 col-md-3 mb-5 package">
                     <div type="button"
-                        class="position-relative rounded-4  px-4 py-3 w100 background d-flex flex-column align-content-center">
+                        class="position-relative rounded-4  px-4 py-3 background d-flex flex-column align-content-center pack-width">
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                             <span class="px-1">Hot</span>
                         </span>
@@ -386,6 +387,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script>
+        window.onload = (e) => {
+            let myToast = document.querySelector(".toast");
+            let bsToast = new bootstrap.Toast(myToast);
+            bsToast.show();
+        };
+    </script>
 </body>
 
 </html>

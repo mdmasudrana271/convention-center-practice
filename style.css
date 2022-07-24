@@ -1,12 +1,4 @@
-.top-banner{
-    background-image: url(imgages/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.font-size{
-    font-size: 70px;
-    font-weight: 500;
-}
+
 .font-p{
     font-size: 15px;
     font-weight: 400;
@@ -27,17 +19,32 @@
     background-color: rgb(92, 154, 235);
 }
 .height{
-    height:70vh;
+    height:400px;
 }
 
-/* .flex-reverse{
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: center;
-} */
- @media only screen and (max-width) {
-    .container-lg{
-        width: 100vw;
+ @media only screen and (min-width:356px) and (max-width:767px) {
+    .carousel-item{
         height: 100vh;
-    }    
+    }
+    .paragraph{
+        font-size: 10px;
+    }
+     .img-width{
+        width: 650px;
+        height: 500px;
+    }
+    .pack-width{
+        width: 50%;
+    }
+    .packages{
+        align-items: center;
+    }
 } 
+
+@media only screen and (min-width:649px) and (max-width:766px) {
+    .img-width{
+        width: 800px;
+        height: 700px;
+    }
+    
+}
