@@ -14,33 +14,35 @@
 
 <body>
     <!-- header section  -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container p-3">
-                <a class="navbar-brand text-dark fw-bold fs-4" href="#">Abacus Convention Center</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <nav class="navbar-nav ms-auto">
-                        <li class="nav-item mx-3">
-                            <a class="nav-link text-dark fw-bold" href="#feature">Home</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link text-dark fw-bold" href="#download">About Us</a>
-                        </li>
-                        <li class="mx-3 nav-item">
-                            <a class="nav-link text-dark fw-bold" href="#contact">Contact</a>
-                        </li>
-                        <li class="mx-3 nav-item">
-                            <a class="nav-link text-dark fw-bold" href="#subscribe">Subscribe</a>
-                        </li>
-                    </nav>
+    <div>
+        <header class="sticky-top shadow p-2 bg-light shadow col-sm-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Abacus Convention Center</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <nav class="navbar-nav ms-auto">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#feature">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#download">About Us</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#download">Contact</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#download">Subscribe</a>
+                            </li>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
 
     <!-- top banner section  -->
     <section>
@@ -56,7 +58,16 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption p-5 d-md-block">
+                        <h1>The perfect venue for your next event</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia consequat duis enim velit </p>
+                        <button class="btn bg-light text-primary py-2 px-5 mb-4">Book Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
                         <h1 class="font-size">The perfect venue for your next event</h1>
                         <p class="font-p">Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit </p>
@@ -64,17 +75,8 @@
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 class="font-size">The perfect venue for your next event</h1>
-                        <p class="font-p">Amet minim mollit non deserunt ullamco est sit aliqua
-                            dolor do amet sint. Velit officia consequat duis enim velit </p>
-                        <button class="btn bg-light text-primary py-2 px-5 mb-4">Book Now</button>
-                    </div>
-                </div>
-                <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/banner.png" class="d-block col-12" alt="...">
+                    <div class="carousel-caption d-md-block">
                         <h1 class="font-size">The perfect venue for your next event</h1>
                         <p class="font-p">Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit </p>
@@ -98,20 +100,21 @@
     <!-- half width section  -->
     <section>
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6 p-5">
-                    <div>
-                        <img class="img-fluid" src="images/wedding.png" alt="">
-                    </div>
+            <div class="row align-items-center ">
+                <div class="col-12 col-md-6 p-5">
+                    <img class="img-fluid" src="images/wedding.png" alt="">
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                     <div>
                         <h1 class="fw-bold text-black">Every moment is Precious </h1>
                         <p class="fw-bold text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor
                             do amet sint. Velit officia consequat duis enim velit mollit.
-                            Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn btn-primary px-4 py-2 align-center fw-bold">Explore our album <img
-                                src="icons/arrow-forward 1.svg" alt=""></button>
+                            Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                        <!-- explore button  -->
+                        <button class="btn btn-primary px-4 py-2 align-center fw-bold">Explore
+                            our album <img src="icons/arrow-forward 1.svg" alt="">
+                        </button>
                     </div>
                 </div>
             </div>
@@ -125,7 +128,7 @@
         </div>
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col">
+                <div class="col-sm-12 col-md-3 mb-5">
                     <div>
                         <h1>$300</h1>
                         <h2>Business fair</h2>
@@ -151,7 +154,7 @@
                             plan</a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-3 mb-5">
                     <div>
                         <h1>$300</h1>
                         <h2>Business fair</h2>
@@ -177,9 +180,9 @@
                             plan</a>
                     </div>
                 </div>
-                <div class="col me-5">
+                <div class="col-sm-12 col-md-3 mb-5">
                     <div type="button"
-                        class="position-relative rounded-4 w-100 px-4 py-3 background height d-flex flex-column align-content-center">
+                        class="position-relative rounded-4  px-4 py-3 w100 background d-flex flex-column align-content-center">
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                             <span class="px-1">Hot</span>
                         </span>
@@ -205,7 +208,7 @@
                             plan</a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-3 mb-5">
                     <div>
                         <h1>$1200</h1>
                         <h2>Corporate event</h2>
@@ -240,7 +243,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <div
                         class="shadow p-2 mb-5 bg-body rounded d-flex flex-column align-items-center justify-content-center">
                         <p>Slate helps you see how<br> many more days you need<br> to work to reach your financial<br>
@@ -250,7 +253,7 @@
                         <h6>Banker</h6>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <div
                         class="shadow p-2 mb-5 bg-body rounded d-flex flex-column align-items-center justify-content-center">
                         <p>Slate helps you see how<br> many more days you need<br> to work to reach your financial<br>
@@ -260,7 +263,7 @@
                         <h6>Banker</h6>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12">
                     <div
                         class="shadow p-2 mb-5 bg-body rounded d-flex flex-column align-items-center justify-content-center">
                         <p>Slate helps you see how<br> many more days you need<br> to work to reach your financial<br>
@@ -281,7 +284,7 @@
         </div>
         <div class="container">
             <div class="row mb-5 d-flex justify-content-center align-items-center">
-                <div class="col">
+                <div class="col-md-6 col-sm-12">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -357,11 +360,28 @@
                     </div>
                 </div>
                 <div class="col">
-                    <img src="images/people.png" alt="">
+                    <img class="img-fluid" src="images/people.png" alt="">
                 </div>
             </div>
         </div>
     </section>
+    <!-- footer section  -->
+    <footer class="bg-black py-5 col-sm-12">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex align-items-center justify-content-start">
+                    <p class="text-light">© 2020 bike. All rights reserved</p>
+                </div>
+                <div class="col d-flex flex-column w-25 align-items-end">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-light fs-5">Get the App</p>
+                        <img class="img-fluid" src="images/app-store.png" alt="">
+                        <img class="img-fluid" src="images/google-play.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

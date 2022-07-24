@@ -29,3 +29,15 @@
 .height{
     height:70vh;
 }
+
+/* .flex-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+} */
+ @media only screen and (max-width) {
+    .container-lg{
+        width: 100vw;
+        height: 100vh;
+    }    
+} 
