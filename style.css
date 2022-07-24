@@ -1,0 +1,31 @@
+.top-banner{
+    background-image: url(imgages/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.font-size{
+    font-size: 70px;
+    font-weight: 500;
+}
+.font-p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.img-bg{
+    background-color: rgb(239, 217, 241);
+}
+.button-background{
+    background-color: rgb(235, 220, 222);
+}
+.check-list{
+    background-color: lightgray;
+}
+.background{
+    background-image: url(icons/watermark.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(92, 154, 235);
+}
+.height{
+    height:70vh;
+}
